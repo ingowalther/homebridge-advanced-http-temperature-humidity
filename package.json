@@ -1,0 +1,29 @@
+{
+  "name": "homebridge-advanced-http-temperature-humidity",
+  "version": "1.0.0",
+  "description": "Plugin to display temperature and humidity via http in homebridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingowalther/homebridge-advanced-http-temperature-humidity.git"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "author": "Ingo Walther",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingowalther/homebridge-advanced-http-temperature-humidity/issues"
+  },
+  "homepage": "https://github.com/ingowalther/homebridge-advanced-http-temperature-humidity#readme",
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
+  }
+}
