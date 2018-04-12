@@ -24,7 +24,7 @@ function AdvancedHttpTemperatureHumidity(log, config) {
     this.model = config["model"] || "Default";
     this.serial = config["serial"] || "18981898";
 
-    this.disableHumidity = config["humidity"] || false;
+    this.disableHumidity = config["disableHumidity"] || false;
 }
 
 AdvancedHttpTemperatureHumidity.prototype = {
