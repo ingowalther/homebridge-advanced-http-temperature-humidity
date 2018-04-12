@@ -51,7 +51,7 @@ AdvancedHttpTemperatureHumidity.prototype = {
     },
 
     getState: function (callback) {
-        this.httpRequest(this.url, "", "GET", this.username, this.password, this.sendimmediately, function (error, response, responseBody) {
+        this.httpRequest(this.url, "", this.http_method, this.username, this.password, this.sendimmediately, function (error, response, responseBody) {
 
             if (error) {
                 this.log('Get Temperature failed: %s', error.message);
