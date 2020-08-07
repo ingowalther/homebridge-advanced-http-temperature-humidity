@@ -4,7 +4,7 @@ var request = require('request');
 module.exports = function (homebridge) {
     Service = homebridge.hap.Service;
     Characteristic = homebridge.hap.Characteristic;
-    homebridge.registerAccessory("homebridge-advancedhttptemperaturehumidity", "AdvancedHttpTemperatureHumidity", AdvancedHttpTemperatureHumidity);
+    homebridge.registerAccessory("homebridge-advanced-http-temperature-humidity", "AdvancedHttpTemperatureHumidity", AdvancedHttpTemperatureHumidity);
 }
 
 function AdvancedHttpTemperatureHumidity(log, config) {
