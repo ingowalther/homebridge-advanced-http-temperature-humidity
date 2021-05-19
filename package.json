@@ -1,6 +1,6 @@
 {
   "name": "homebridge-advanced-http-temperature-humidity",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Plugin to display temperature and humidity via http in homebridge",
   "main": "index.js",
   "scripts": {

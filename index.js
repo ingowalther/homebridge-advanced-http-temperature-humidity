@@ -11,6 +11,9 @@ function AdvancedHttpTemperatureHumidity(log, config) {
     this.log = log;
     this.humidityService = false;
 
+    // Set default values
+    this.humidity = 0;
+
     // Config
     this.url = config["url"];
     this.http_method = config["http_method"] || "GET";
